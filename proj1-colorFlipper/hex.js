@@ -10,7 +10,7 @@ for(let i=1;i<=6;i++){
 colors.textContent= hexValue;
 document.body.style.backgroundColor = hexValue;
 console.log(hexValue);
-});
+}); 
 function randNumGenerator() {
     return Math.floor(Math.random() * hex.length);
 }
